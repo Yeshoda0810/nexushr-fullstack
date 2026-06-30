@@ -1,0 +1,11 @@
+target/
+.idea/
+*.iml
+.vscode/
+.mvn/
+.DS_Store
+*.log
+
+# NEVER commit real DB credentials - copy this file, fill it in locally, and keep it out of git
+application-local.properties
+.env

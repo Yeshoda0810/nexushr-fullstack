@@ -1,0 +1,18 @@
+spring.application.name=nexushr-backend
+server.port=8080
+
+# Copy this file to application.properties and fill in YOUR Neon DB details
+spring.datasource.url=jdbc:postgresql://YOUR_NEON_HOST/YOUR_DB_NAME?sslmode=require
+spring.datasource.username=YOUR_NEON_USERNAME
+spring.datasource.password=YOUR_NEON_PASSWORD
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+spring.datasource.hikari.maximum-pool-size=5
+spring.datasource.hikari.connection-timeout=30000
+spring.datasource.hikari.idle-timeout=10000
+spring.datasource.hikari.max-lifetime=27000
