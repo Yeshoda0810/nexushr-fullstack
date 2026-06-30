@@ -6,6 +6,7 @@ NexusHR is a full-stack HR and workforce management platform built as part of th
 
 - **Frontend (Vercel):** https://nexushr-frontend-nu.vercel.app
 - **Backend API (Render):** https://nexushr-backend-lyae.onrender.com
+- **Demo Video:** https://drive.google.com/file/d/1lRlLWpDcux_4GNeRkUmN_6KzVW-34LRg/view?usp=sharing
 
 > Note: The backend is hosted on Render's free tier, which spins down after periods of inactivity. The first request after idle time may take 30–50 seconds to respond while the server wakes up — this is expected behavior, not a bug.
 
